@@ -7,11 +7,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/AtulyaRaghuvanshi/ci-cd-docker-app'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
